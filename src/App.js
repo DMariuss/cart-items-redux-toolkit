@@ -16,7 +16,7 @@ function App() {
   const dispatch = useDispatch();
   const showCart = useSelector((state) => state.ui.showCart);
   const notification = useSelector((state) => state.ui.notification);
-  const cart = useSelector((state) => state.cart.items);
+  const cart = useSelector((state) => state.cart);
 
   useEffect(() => {
     // definesc o functie asincrona in care trimit solicitarea
